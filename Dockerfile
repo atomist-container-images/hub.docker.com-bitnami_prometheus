@@ -1,12 +1,21 @@
-# Tags: latest, 2.35.0-debian-10-r7, 2.35.0, 2-debian-10, 2
+# Tags: latest, 2.35.0-debian-10-r10, 2.35.0, 2-debian-10, 2
 FROM bitnami/prometheus:latest
-FROM bitnami/prometheus:2.35.0-debian-10-r7
+FROM bitnami/prometheus:2.35.0-debian-10-r10
 FROM bitnami/prometheus:2.35.0
 FROM bitnami/prometheus:2-debian-10
 FROM bitnami/prometheus:2
 
 # Tags: _
 FROM bitnami/prometheus:_
+
+# Tags: 2.35.0-debian-10-r9
+FROM bitnami/prometheus:2.35.0-debian-10-r9
+
+# Tags: 2.35.0-debian-10-r8
+FROM bitnami/prometheus:2.35.0-debian-10-r8
+
+# Tags: 2.35.0-debian-10-r7
+FROM bitnami/prometheus:2.35.0-debian-10-r7
 
 # Tags: 2.35.0-debian-10-r6
 FROM bitnami/prometheus:2.35.0-debian-10-r6
@@ -84,15 +93,3 @@ FROM bitnami/prometheus:2.33.5-debian-10-r26
 
 # Tags: 2.33.5-debian-10-r25
 FROM bitnami/prometheus:2.33.5-debian-10-r25
-
-# Tags: 2.33.5-debian-10-r24
-FROM bitnami/prometheus:2.33.5-debian-10-r24
-
-# Tags: 2.33.5-debian-10-r23
-FROM bitnami/prometheus:2.33.5-debian-10-r23
-
-# Tags: 2.33.5-debian-10-r22
-FROM bitnami/prometheus:2.33.5-debian-10-r22
-
-# Tags: 2.33.5-debian-10-r21
-FROM bitnami/prometheus:2.33.5-debian-10-r21
